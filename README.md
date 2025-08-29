@@ -3,8 +3,12 @@ Go cli that creates a one time note which is served it over HTTP, and shows a QR
 
 # How to run
 
+```sh
 go build
 ./qreph "your content"
-or pipe 
+```
+or pipe:
+
+```sh
 echo "your content" | ./qreph
-'''
+```
